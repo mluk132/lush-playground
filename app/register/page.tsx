@@ -75,7 +75,7 @@ export default function RegisterPage() {
           <Link href="/" className="inline-flex items-center space-x-2">
             <PaintBrushIcon className="h-12 w-12 text-pink-600" />
             <span className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
-              Lush Playground
+              Finder
             </span>
           </Link>
           <h2 className="mt-6 text-3xl font-bold text-gray-900">

@@ -8,7 +8,7 @@ import {
   SparklesIcon,
   UserGroupIcon,
   SwatchIcon
-} from '@heroicons/react/24/outline'
+, PaintBrushIcon } from '@heroicons/react/24/outline'
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="flex items-center space-x-2">
               <PaintBrushIcon className="h-8 w-8 text-pink-600" />
               <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Lush Playground
+                Finder
               </span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -223,7 +223,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <PaintBrushIcon className="h-6 w-6 text-pink-400" />
-                <span className="text-white font-bold">Lush Playground</span>
+                <span className="text-white font-bold">Finder</span>
               </div>
               <p className="text-sm">Create, share, and explore digital art.</p>
             </div>
@@ -253,7 +253,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-            © 2026 Lush Playground. All rights reserved.
+            © 2026 Finder. All rights reserved.
           </div>
         </div>
       </footer>

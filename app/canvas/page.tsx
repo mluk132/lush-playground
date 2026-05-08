@@ -10,7 +10,7 @@ import {
   ArrowUturnLeftIcon,
   ArrowUturnRightIcon,
   CloudArrowDownIcon
-} from '@heroicons/react/24/outline'
+, PaintBrushIcon } from '@heroicons/react/24/outline'
 
 export default function CanvasPage() {
   const [tool, setTool] = useState('brush')
@@ -36,7 +36,7 @@ export default function CanvasPage() {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
               <PaintBrushIcon className="h-6 w-6 text-pink-500" />
-              <span className="text-white font-bold">Lush Playground</span>
+              <span className="text-white font-bold">Finder</span>
             </Link>
             <div className="flex items-center gap-4">
               <button className="btn btn-ghost text-white text-sm">

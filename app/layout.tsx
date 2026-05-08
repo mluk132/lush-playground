@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lush Playground - Creative Digital Canvas',
+  title: 'Finder - Creative Digital Canvas',
   description: 'Create, share, and explore digital art with interactive tools',
 }
 

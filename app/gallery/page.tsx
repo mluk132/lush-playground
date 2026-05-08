@@ -25,7 +25,7 @@ export default function GalleryPage() {
             <Link href="/" className="flex items-center space-x-2">
               <PaintBrushIcon className="h-8 w-8 text-pink-600" />
               <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Lush Playground
+                Finder
               </span>
             </Link>
             <div className="hidden md:flex items-center space-x-8">
